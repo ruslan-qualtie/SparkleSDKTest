@@ -1,0 +1,8 @@
+# OS X
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcworkspace
+!default.xcworkspac
+
