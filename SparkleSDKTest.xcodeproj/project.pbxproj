@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C399DD80276C94F400D2DC0F /* UpdaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */; };
+		C399DD82276C95D700D2DC0F /* UpdaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD81276C95D700D2DC0F /* UpdaterView.swift */; };
+		C399DD84276C9C3C00D2DC0F /* Bundle+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD83276C9C3C00D2DC0F /* Bundle+extensions.swift */; };
 		C3F34190276A230A0062438D /* SparkleSDKTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F3418F276A230A0062438D /* SparkleSDKTestApp.swift */; };
 		C3F34192276A230A0062438D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F34191276A230A0062438D /* ContentView.swift */; };
 		C3F34194276A230C0062438D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F34193276A230C0062438D /* Assets.xcassets */; };
@@ -16,6 +19,11 @@
 
 /* Begin PBXFileReference section */
 		804307D41FCB962B5AC84D19 /* Pods-SparkleSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleSDKTest.debug.xcconfig"; path = "Target Support Files/Pods-SparkleSDKTest/Pods-SparkleSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C38C88BC2771D5AF00BAD3E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterViewModel.swift; sourceTree = "<group>"; };
+		C399DD81276C95D700D2DC0F /* UpdaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterView.swift; sourceTree = "<group>"; };
+		C399DD83276C9C3C00D2DC0F /* Bundle+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+extensions.swift"; sourceTree = "<group>"; };
+		C399DD87276CB03400D2DC0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C3F3418C276A230A0062438D /* SparkleSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkleSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F3418F276A230A0062438D /* SparkleSDKTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkleSDKTestApp.swift; sourceTree = "<group>"; };
 		C3F34191276A230A0062438D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 		C3F34183276A230A0062438D = {
 			isa = PBXGroup;
 			children = (
+				C38C88BC2771D5AF00BAD3E1 /* .gitignore */,
 				C3F3418E276A230A0062438D /* SparkleSDKTest */,
 				C3F3418D276A230A0062438D /* Products */,
 				D922A02980DD1886BD9C68A6 /* Pods */,
@@ -67,8 +76,12 @@
 		C3F3418E276A230A0062438D /* SparkleSDKTest */ = {
 			isa = PBXGroup;
 			children = (
+				C399DD87276CB03400D2DC0F /* Info.plist */,
 				C3F3418F276A230A0062438D /* SparkleSDKTestApp.swift */,
 				C3F34191276A230A0062438D /* ContentView.swift */,
+				C399DD81276C95D700D2DC0F /* UpdaterView.swift */,
+				C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */,
+				C399DD83276C9C3C00D2DC0F /* Bundle+extensions.swift */,
 				C3F34193276A230C0062438D /* Assets.xcassets */,
 				C3F34198276A230C0062438D /* SparkleSDKTest.entitlements */,
 				C3F34195276A230C0062438D /* Preview Content */,
@@ -90,7 +103,6 @@
 				804307D41FCB962B5AC84D19 /* Pods-SparkleSDKTest.debug.xcconfig */,
 				CA642D806848CAA4F8EA156B /* Pods-SparkleSDKTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,7 +136,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					C3F3418B276A230A0062438D = {
 						CreatedOnToolsVersion = 13.1;
@@ -208,7 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C399DD84276C9C3C00D2DC0F /* Bundle+extensions.swift in Sources */,
 				C3F34192276A230A0062438D /* ContentView.swift in Sources */,
+				C399DD80276C94F400D2DC0F /* UpdaterViewModel.swift in Sources */,
+				C399DD82276C95D700D2DC0F /* UpdaterView.swift in Sources */,
 				C3F34190276A230A0062438D /* SparkleSDKTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,17 +357,20 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SparkleSDKTest/Preview Content\"";
-				DEVELOPMENT_TEAM = A9L2V6G6UF;
+				DEVELOPMENT_TEAM = MRSFQSP9T5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkleSDKTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SparkleSDKTest;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sparkle.sdk.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -370,17 +388,20 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SparkleSDKTest/Preview Content\"";
-				DEVELOPMENT_TEAM = A9L2V6G6UF;
+				DEVELOPMENT_TEAM = MRSFQSP9T5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SparkleSDKTest/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SparkleSDKTest;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sparkle.sdk.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
