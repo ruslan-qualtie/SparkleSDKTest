@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SparkleSDKTest</title>
+        <link>https://raw.githubusercontent.com/ruslan-qualtie/SparkleSDKTest/master/appcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.0.2</title>
+            <link>https://github.com/ruslan-qualtie/SparkleSDKTest</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description>
+                <![CDATA[
+                    <ul>
+                    <li>Version 0.0.2 description</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+            <enclosure
+            url="https://github.com/ruslan-qualtie/SparkleSDKTest/releases/download/v0.0.2/SparkleSDKTest.zip"
+            length="1454328"
+            type="application/octet-stream"
+            sparkle:edSignature="ReOVOO1GQi5Jy3mwCKTQOsBrkrbK7K9R2kJIDU2TLaBSd8lofyGaEvlcsd9jH453DEDYJxj9sH1SHHk2Xu4CDg=="
+            />
+        </item>
+    </channel>
+</rss>
