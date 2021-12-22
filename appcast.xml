@@ -20,10 +20,10 @@
             </description>
             <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
             <enclosure
-            url="https://github.com/ruslan-qualtie/SparkleSDKTest/releases/download/v0.0.2/SparkleSDKTest.zip"
-            length="1454328"
+            url="https://github.com/ruslan-qualtie/SparkleSDKTest/releases/download/v0.0.2/SparkleSDKTest.dmg"
+            length="1306964"
             type="application/octet-stream"
-            sparkle:edSignature="ReOVOO1GQi5Jy3mwCKTQOsBrkrbK7K9R2kJIDU2TLaBSd8lofyGaEvlcsd9jH453DEDYJxj9sH1SHHk2Xu4CDg=="
+            sparkle:edSignature="Ko8NI20/OVEQQp2yrQj/69xthX7ShEmLGo+VN8ehQ5mRLYR/eSbKKeI2UZjsc7pXRcPZ7TCEffVOQckB/imLCA=="
             />
         </item>
     </channel>
