@@ -1,4 +1,6 @@
 import SwiftUI
+import AppCenterAnalytics
+import AppCenterCrashes
 
 struct ContentView: View {
     @EnvironmentObject var updaterViewModel: UpdaterViewModel
@@ -9,6 +11,10 @@ struct ContentView: View {
                 Text("Build \(Bundle.main.buildVersionNumber!)")
             }
             UpdaterView(model: updaterViewModel)
+            Button("Simulate Crash") {
+                Analytics.trackEvent("Simulate Crash")
+                Crashes.generateTestCrash()
+            }
         }
         .frame(width: 200, height: 100)
         .padding()

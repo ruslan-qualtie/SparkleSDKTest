@@ -1,5 +1,6 @@
 import SwiftUI
 import Sparkle
+import AppCenterAnalytics
 
 final class UpdaterViewModel: ObservableObject {
     @Published var canCheckForUpdates = false
@@ -18,5 +19,6 @@ final class UpdaterViewModel: ObservableObject {
 
     func checkForUpdates() {
         controller.checkForUpdates(nil)
+        Analytics.trackEvent("Сheck For Updates")
     }
 }
