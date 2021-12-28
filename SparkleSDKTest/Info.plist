@@ -10,5 +10,11 @@
 	<string>https://api.appcenter.ms/v0.1/public/sparkle/apps/23b226e2-5cd2-46b9-bfe5-59d5787a356c</string>
 	<key>SUPublicEDKey</key>
 	<string>5btlehaUnvKFbZU+DfmTbH3GtGww33O7QWO9HU6MCP8=</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>60</integer>
+	<key>SUAllowsAutomaticUpdates</key>
+	<true/>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 </dict>
 </plist>
