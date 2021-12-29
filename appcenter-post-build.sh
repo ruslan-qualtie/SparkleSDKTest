@@ -1,5 +1,11 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-BUNDLE_IDENTIFIER=com.example.sparkle.sdk.test
-DISTRIBUTION_FILE=$APPCENTER_OUTPUT_DIRECTORY/SparkleSDKTest_distribution.zip
-xcrun altool --notarize-app --primary-bundle-id $BUNDLE_IDENTIFIER --username $AC_USERNAME --password $AC_PASSWORD --file $DISTRIBUTION_FILE
+echo "=============================================================================="
+echo "start post-build script"
+
+echo "Start Distribute script (appcenter-distribute.sh)"
+sh ./appcenter-distribute.sh
+echo "Finish Distribute script (appcenter-distribute.sh)"
+
+echo "end post-build script"
+echo "=============================================================================="

@@ -20,6 +20,9 @@
 /* Begin PBXFileReference section */
 		804307D41FCB962B5AC84D19 /* Pods-SparkleSDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleSDKTest.debug.xcconfig"; path = "Target Support Files/Pods-SparkleSDKTest/Pods-SparkleSDKTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C30E6018277B067300C82B6F /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
+		C334E407277C66F600DD067A /* appcenter-post-clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-clone.sh"; sourceTree = "<group>"; };
+		C334E408277C674000DD067A /* appcenter-pre-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
+		C334E409277C8EB200DD067A /* appcenter-distribute.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-distribute.sh"; sourceTree = "<group>"; };
 		C38C88BC2771D5AF00BAD3E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C390C0512771FF9E0082D34B /* appcast.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterViewModel.swift; sourceTree = "<group>"; };
@@ -59,6 +62,9 @@
 		C3F34183276A230A0062438D = {
 			isa = PBXGroup;
 			children = (
+				C334E409277C8EB200DD067A /* appcenter-distribute.sh */,
+				C334E407277C66F600DD067A /* appcenter-post-clone.sh */,
+				C334E408277C674000DD067A /* appcenter-pre-build.sh */,
 				C30E6018277B067300C82B6F /* appcenter-post-build.sh */,
 				C390C0512771FF9E0082D34B /* appcast.xml */,
 				C38C88BC2771D5AF00BAD3E1 /* .gitignore */,
