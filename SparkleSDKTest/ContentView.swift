@@ -11,8 +11,10 @@ struct ContentView: View {
                 Text("Build \(Bundle.main.buildVersionNumber!)")
             }
             UpdaterView(model: updaterViewModel)
+            Button("Simulate Event") {
+                Analytics.trackEvent("Simulated Event")
+            }
             Button("Simulate Crash") {
-                Analytics.trackEvent("Simulate Crash")
                 Crashes.generateTestCrash()
             }
         }
