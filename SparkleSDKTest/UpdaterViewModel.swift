@@ -13,8 +13,6 @@ final class UpdaterViewModel: ObservableObject {
             dateFormatter.dateStyle = .medium
             dateFormatter.timeStyle = .medium
             lastUpdateCheckDate = dateFormatter.string(from: date)
-            UserDefaults.standard.removeObject(forKey: "SULastCheckTime")
-            UserDefaults.standard.synchronize()
         } else {
             lastUpdateCheckDate = "unavailable"
         }
