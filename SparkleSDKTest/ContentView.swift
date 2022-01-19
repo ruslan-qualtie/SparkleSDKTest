@@ -10,6 +10,7 @@ struct ContentView: View {
                 Text("Version \(Bundle.main.releaseVersionNumber!)")
                 Text("Build \(Bundle.main.buildVersionNumber!)")
             }
+            Text("Last update check: \(updaterViewModel.lastUpdateCheckDate)")
             UpdaterView(model: updaterViewModel)
             Button("Simulate Event") {
                 Analytics.trackEvent("Simulated Event")
@@ -18,7 +19,7 @@ struct ContentView: View {
                 Crashes.generateTestCrash()
             }
         }
-        .frame(width: 200, height: 100)
+        .frame(width: 300, height: 100)
         .padding()
     }
 }

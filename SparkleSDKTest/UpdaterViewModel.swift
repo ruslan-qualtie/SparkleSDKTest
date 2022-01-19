@@ -4,9 +4,20 @@ import AppCenterAnalytics
 
 final class UpdaterViewModel: ObservableObject {
     @Published var canCheckForUpdates = false
+    let lastUpdateCheckDate: String
     private let controller: SPUStandardUpdaterController
 
     init() {
+        if let date = UserDefaults.standard.object(forKey: "SULastCheckTime") as? Date {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateStyle = .medium
+            dateFormatter.timeStyle = .medium
+            lastUpdateCheckDate = dateFormatter.string(from: date)
+            UserDefaults.standard.removeObject(forKey: "SULastCheckTime")
+            UserDefaults.standard.synchronize()
+        } else {
+            lastUpdateCheckDate = "unavailable"
+        }
         controller = SPUStandardUpdaterController(
             startingUpdater: true,
             updaterDelegate: nil,
