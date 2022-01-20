@@ -23,6 +23,7 @@
 		C334E407277C66F600DD067A /* appcenter-post-clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-clone.sh"; sourceTree = "<group>"; };
 		C334E408277C674000DD067A /* appcenter-pre-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		C334E409277C8EB200DD067A /* appcenter-distribute.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-distribute.sh"; sourceTree = "<group>"; };
+		C338CE402799B548005126A7 /* export-options.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "export-options.plist"; sourceTree = "<group>"; };
 		C38C88BC2771D5AF00BAD3E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C390C0512771FF9E0082D34B /* appcast.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterViewModel.swift; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		C3F3418E276A230A0062438D /* SparkleSDKTest */ = {
 			isa = PBXGroup;
 			children = (
+				C338CE402799B548005126A7 /* export-options.plist */,
 				C399DD87276CB03400D2DC0F /* Info.plist */,
 				C3F3418F276A230A0062438D /* SparkleSDKTestApp.swift */,
 				C3F34191276A230A0062438D /* ContentView.swift */,
