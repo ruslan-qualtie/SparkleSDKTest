@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3762E86279EBC2B008DBC97 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = C3762E85279EBC2B008DBC97 /* bin */; };
 		C399DD80276C94F400D2DC0F /* UpdaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */; };
 		C399DD82276C95D700D2DC0F /* UpdaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD81276C95D700D2DC0F /* UpdaterView.swift */; };
 		C399DD84276C9C3C00D2DC0F /* Bundle+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C399DD83276C9C3C00D2DC0F /* Bundle+extensions.swift */; };
@@ -24,6 +25,7 @@
 		C334E408277C674000DD067A /* appcenter-pre-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-pre-build.sh"; sourceTree = "<group>"; };
 		C334E409277C8EB200DD067A /* appcenter-distribute.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-distribute.sh"; sourceTree = "<group>"; };
 		C338CE402799B548005126A7 /* export-options.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "export-options.plist"; sourceTree = "<group>"; };
+		C3762E85279EBC2B008DBC97 /* bin */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bin; sourceTree = SOURCE_ROOT; };
 		C38C88BC2771D5AF00BAD3E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C390C0512771FF9E0082D34B /* appcast.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
 		C399DD7F276C94F400D2DC0F /* UpdaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterViewModel.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		C3F3418E276A230A0062438D /* SparkleSDKTest */ = {
 			isa = PBXGroup;
 			children = (
+				C3762E85279EBC2B008DBC97 /* bin */,
 				C338CE402799B548005126A7 /* export-options.plist */,
 				C399DD87276CB03400D2DC0F /* Info.plist */,
 				C3F3418F276A230A0062438D /* SparkleSDKTestApp.swift */,
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3762E86279EBC2B008DBC97 /* bin in Resources */,
 				C3F34197276A230C0062438D /* Preview Assets.xcassets in Resources */,
 				C3F34194276A230C0062438D /* Assets.xcassets in Resources */,
 			);
